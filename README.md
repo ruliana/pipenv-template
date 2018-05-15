@@ -14,10 +14,10 @@ To install new Python packages:
 
 Run once, after installing Jupyter:
 
-    ./install-jupyter-kernel.sh
+    ./name-jupyter-kernel.sh <your-kernel-name-here>
 
 Start Jupyter Notebook with:
 
     ./run-jupiter.sh
 
-Then go to "Change Kernel -> .venv"
+Then go to "Change Kernel -> <your-kernel-name-here>"
